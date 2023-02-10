@@ -45,10 +45,8 @@ def generate_random_time():
     """
 
     time_str = get_current_time_twelve_hours_format()
-    end_time = get_time_ahead_of_current_time(10)
-    end_time_object = datetime.datetime.strptime(end_time, '%I:%M %p').time()
     time_object = datetime.datetime.strptime(time_str, '%I:%M %p').time()
-    generated_time = random_time(start=time_object, end=end_time_object, text=True, pattern='%I:%M %p')
+    generated_time = random_time(start=time_object, text=True, pattern='%I:%M %p')
     if generated_time.startswith("0"):
         final_time = generated_time[1:]
     else:
