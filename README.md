@@ -85,10 +85,14 @@ In Order to generate Allure Reports, run following command:
 
 ### Allure Report
 
-![Allure ](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot 2023-02-20 at 11.10.34 PM.png](Images%2FScreenshot%202023-02-20%20at%2011.10.34%20PM.png)
 
 
 ### Jenkins View
+![Screenshot 2023-02-20 at 11.20.25 PM.png](Images%2FScreenshot%202023-02-20%20at%2011.20.25%20PM.png)
+
+### Loom Link
+https://www.loom.com/share/acf5787803c640e19086d43ba0ee3a06
 
 ## 🔗 Get In Touch with me
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/taimoor-pasha-a2294878/)
@@ -100,5 +104,4 @@ In Order to generate Allure Reports, run following command:
 ## Acknowledgements
 I have created this framework, with [Rahul Shetty's Course of - Appium - Mobile App Automation in Python (Basics + Advance)
 ](https://www.udemy.com/course/appium-with-python-tutorial/)
-
 
