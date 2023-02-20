@@ -85,10 +85,14 @@ In Order to generate Allure Reports, run following command:
 
 ### Allure Report
 
-![Allure ](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Allure Report](/Users/tp/Desktop/Screenshot 2023-02-20 at 11.10.34 PM.png?raw=true "Title")
 
 
 ### Jenkins View
+![Jenkins Report](/Users/tp/Desktop/Screenshot 2023-02-20 at 11.20.25 PM.png?raw=true "Title")
+
+### Loom Link
+https://www.loom.com/share/acf5787803c640e19086d43ba0ee3a06
 
 ## 🔗 Get In Touch with me
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/taimoor-pasha-a2294878/)
