@@ -85,11 +85,12 @@ In Order to generate Allure Reports, run following command:
 
 ### Allure Report
 
-![Screenshot 2023-02-20 at 11.10.34 PM.png](Images%2FScreenshot%202023-02-20%20at%2011.10.34%20PM.png)
+<img width="1680" alt="Screenshot 2023-02-20 at 11 10 34 PM" src="https://user-images.githubusercontent.com/46814549/220186050-288fe2df-f13d-49a1-9037-6aa6d0a9bfa0.png">
 
 
 ### Jenkins View
-![Screenshot 2023-02-20 at 11.20.25 PM.png](Images%2FScreenshot%202023-02-20%20at%2011.20.25%20PM.png)
+<img width="1661" alt="Screenshot 2023-02-20 at 11 20 25 PM" src="https://user-images.githubusercontent.com/46814549/220186096-94d10a98-c032-40d7-ad71-290896c419c9.png">
+
 
 ### Loom Link
 https://www.loom.com/share/acf5787803c640e19086d43ba0ee3a06
