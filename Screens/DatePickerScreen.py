@@ -141,7 +141,7 @@ class DatePickerScreen(BasePage):
         day = read_text_file(_day_file)
         date_day_xpath = day+", "+date
         self.click_web_element_locator_for_date_wheeler(date_day_xpath)
-        self.tap_without_interacting_with_element(142, 181)
+        self.tap_on_space(142, 181)
 
     def get_value_date_wheel_picker(self) -> str:
         """
@@ -169,4 +169,4 @@ class DatePickerScreen(BasePage):
 
     def enter_am_pm(self, am_pm):
         self.send_text_with_index("TIME_PICKER_WHEELER_CLASS_NAME", 2, am_pm)
-        self.tap_without_interacting_with_element(142, 181)
+        self.tap_on_space(142, 181)

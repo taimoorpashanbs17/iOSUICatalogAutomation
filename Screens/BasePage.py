@@ -17,7 +17,7 @@ def get_name(locator_name: str) -> str:
     :return: Name of the locator, without dashes and with title format.
     """
 
-    list_of_locators = ['_XPATH', '_ID', '_CLASS_NAME', '_NAME', '_ACCESSIBILITYID']
+    list_of_locators = ['_XPATH', '_ID', '_CLASS_NAME', '_NAME', '_ACCESSIBILITY_ID']
     for word in list_of_locators:
         locator_name = locator_name.replace(word, "")
     return locator_name.replace("_", " ").title()
@@ -39,7 +39,7 @@ class BasePage:
         element = None
         if str(locator).endswith("_XPATH"):
             element = self.driver.find_element(AppiumBy.XPATH, configReader.read_config("locators", locator))
-        elif str(locator).endswith("_ACCESSIBILITYID"):
+        elif str(locator).endswith("_ACCESSIBILITY_ID"):
             element = self.driver.find_element(AppiumBy.ACCESSIBILITY_ID,
                                                configReader.read_config("locators", locator))
         elif str(locator).endswith("_ID"):
@@ -60,7 +60,7 @@ class BasePage:
         element = None
         if str(locator).endswith("_XPATH"):
             element = self.driver.find_elements(AppiumBy.XPATH, configReader.read_config("locators", locator))
-        elif str(locator).endswith("_ACCESSIBILITYID"):
+        elif str(locator).endswith("_ACCESSIBILITY_ID"):
             element = self.driver.find_elements(AppiumBy.ACCESSIBILITY_ID,
                                                 configReader.read_config("locators", locator))
         elif str(locator).endswith("_ID"):
@@ -246,7 +246,7 @@ class BasePage:
         element.click()
         log.logger.info("Clicking on date and day of "+date_day)
 
-    def tap_without_interacting_with_element(self, x_axis: int, y_axis: int):
+    def tap_on_space(self, x_axis: int, y_axis: int):
         """
             Tapping on any area of the screen using coordinates
         :param x_axis: value of x-axis with int.
@@ -254,6 +254,7 @@ class BasePage:
         """
 
         TouchAction(self.driver).tap(None, x_axis, y_axis, 1).perform()
+        log.logger.info("Tapped on space")
 
     def scroll_up_down(self, axis_x, axis_y1: int, axis_y2: int):
         """
