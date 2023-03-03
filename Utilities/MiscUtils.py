@@ -31,6 +31,9 @@ def get_final_date_verification(output_date) -> str:
         date = output[-2:]
     month = output_date[0:3]
     final_date = month + " " + date
+    date_with_space = final_date[-2:-1]
+    if date_with_space is " ":
+        final_date = month + date
     return final_date
 
 
